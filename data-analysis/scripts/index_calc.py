@@ -17,6 +17,20 @@ plt.rcParams['legend.edgecolor'] = 'inherit'
 plt.rcParams['legend.fancybox'] = False
 plt.rcParams['legend.fontsize'] = 'large'
 
+# Directory of the output figures
+figures = 'C:/MSc-thesis/figures'
+
+# Colors
+colors = ['#1f77b4', '#ff7f0e', '#2ca02c']
+# Line styles
+lines = ['-', '--', '-.', ':']
+# Markers
+markers = ['o', 's', 'x', 'D']
+# Legend labels
+labels = ['1989', '2007', '2015/16']
+# Titles
+titles = ['Narva', u'Pärnu', 'Tallinn', 'Tartu']
+
 # Directory of the input CSV files
 inputs = 'C:/MSc-thesis/data-analysis/data/outputs/popt-mono'
 
@@ -63,20 +77,6 @@ ks_arrays = []
 for df in popt_dfs:
      ks_arrays.append(np.array(df['ks']))
 ks_df = pd.DataFrame(ks_arrays, index=titles, columns=labels)
-
-# Directory of the output figures
-figures = 'C:/MSc-thesis/figures'
-
-# Colors
-colors = ['#1f77b4', '#ff7f0e', '#2ca02c']
-# Line styles
-lines = ['-', '--', '-.', ':']
-# Markers
-markers = ['o', 's', 'x', 'D']
-# Legend labels
-labels = ['1989', '2007', '2015/16']
-# Titles
-titles = ['Narva', u'Pärnu', 'Tallinn', 'Tartu']
 
 # Plot the compactness parameters
 kp_df = kp_df.T
