@@ -2,8 +2,8 @@
 
 # Import system modules
 import arcpy
-from arcpy.sa import *
 import os
+from arcpy.sa import *
 
 # Overwrite outputs
 arcpy.env.overwriteOutput = True
