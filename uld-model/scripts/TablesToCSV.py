@@ -14,7 +14,7 @@ arcpy.env.workspace = "C:/MSc-thesis/uld-model/ULDModel.gdb"
 
 # Create an array of the ULD tables in the gdb. The tables of a city have to
 # have the same number of rows.
-names = ["prn", "tln"] # "prn" and "tln" for polycentric
+names = ["nrv", "prn", "tln", "trt"] # "prn" and "tln" for polycentric
 array = []
 for i in names:
     tables = arcpy.ListTables(i+"*"+"_ULD") # "_ULD0" for polycentric
