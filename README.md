@@ -5,3 +5,5 @@ The repo is divided into three parts:
 * [uld-model](https://github.com/hvirro/MSc-thesis/tree/master/uld-model) - the data and ArcGIS tools that were used to extract urban land density data from the land use rasters of the four Estonian cities observed in this study;
 * [data-analysis](https://github.com/hvirro/MSc-thesis/tree/master/data-analysis) - the data and scripts used for model fitting and the calculation of the compactness and urban sprawl indicators;
 * [figures](https://github.com/hvirro/MSc-thesis/tree/master/figures) - figures showing the interfaces of the tools, the contents of the geodatabase, etc.
+
+[This poster](https://github.com/hvirro/MSc-thesis/blob/master/Virro_ESRI_2018.pdf) gives a brief overview of my thesis. The poster was presented at the Esri User Conference 2018 in San Diego (USA), as I was one of the winners of the [Esri Young Scholars Award](https://www.arcgis.com/apps/MapTour/index.html?appid=0e2134811d094a0482936a5af5242b73).
